@@ -1,0 +1,29 @@
+
+.box6 img{
+   width: 100%;
+   border-radius: 1rem;
+}
+.box6-bottom img{
+    width: 6rem;
+}
+.box6-bottom-link{
+    font-size: 1.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 1rem;
+    margin: 0rem 3rem;
+}
+.box6-bottom-link a{
+    text-decoration: none;
+    color: rgb(0 0 0);
+    font-weight: 300;
+    padding: 0.5rem 1rem;
+}
+.box6-bottom{
+    display: flex;
+}
+.box6-bottom p{
+    padding-top: 1rem;
+    font-size: 1.3rem;
+}

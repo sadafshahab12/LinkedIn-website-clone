@@ -1,0 +1,141 @@
+.border {
+  border: 1.25px solid #dfdeda;
+  width: 46rem;
+  height: 0;
+}
+.mid {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  left: 33rem;
+  top: 22rem;
+  align-items: center;
+  z-index: -1;
+}
+.mid p {
+  font-size: 1.2rem;
+}
+
+.post {
+  /* display: flex; */
+  width: 100%;
+  min-height: 69rem;
+  border: 1px solid rgba(0, 0, 0, 0.279);
+  margin-bottom: 1.2rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  background-color: white;
+  z-index: -2;
+}
+.box4-top {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+}
+.box4-left {
+  display: flex;
+  gap: 2rem;
+}
+.box4-profile img {
+  width: 5rem;
+  border-radius: 3rem;
+  position: relative;
+  top: 1rem;
+  left: 1rem;
+}
+.box4-info {
+  font-size: 1.4rem;
+}
+
+.box4-name {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.box4-name h5 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.box4-name p {
+  font-size: 1.5rem;
+  color: rgb(71, 70, 70);
+}
+.box4-icon {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  color: rgb(71, 70, 70);
+}
+.box4-right {
+  display: flex;
+  gap: 2rem;
+}
+
+.box4-mid p {
+  font-size: 1.4rem;
+  padding: 1rem 3rem;
+}
+.box4-mid img {
+  width: 100%;
+}
+
+.comment-info{
+    padding: 1rem 1rem;
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.151);
+    align-items: center;
+}
+.left-like{
+    display: flex;
+    gap: ;
+}
+.left-like p{
+font-size: 1.4rem;
+padding-left: 1rem
+}
+
+.right-like{
+    display: flex;
+    gap: 1rem;
+}
+.right-like p{
+    font-size: 1.4rem;
+}
+
+.box4-comment{
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem 2rem;
+    gap: 2rem;
+    align-items: center;
+}
+.comment-left{
+    display: flex;
+    gap: 0.5rem;
+}
+.comment-left p{
+    font-size: 1.4rem;
+}
+.comment-right{
+    display: flex;
+    gap: 0.5rem;
+}
+.comment-right p{
+    font-size: 1.4rem;
+}
+.comment-mid{
+    display: flex;
+    gap: 0.5rem;
+}
+.comment-mid p{
+    font-size: 1.4rem;
+}
+.comment-end{
+    display: flex;
+    gap: 0.5rem;
+}
+.comment-end p{
+    font-size: 1.4rem;
+}

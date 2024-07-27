@@ -1,0 +1,43 @@
+.box5-top {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.151);
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  line-height: 3rem;
+}
+.box5-left {
+  display: flex;
+  flex-direction: column;
+}
+.box5-left-grey {
+  color: #5c5858;
+  text-decoration: none;
+}
+.box5-left-blue {
+  color: #0a66c2;
+  text-decoration: none;
+  font-weight: 600;
+}
+.box5-right {
+  font-size: 1.5rem;
+  color: #373535;
+  position: relative;
+  top: 1.5rem;
+}
+
+.box5-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box5-bottom a {
+  text-decoration: none;
+  color: #3a3535;
+  font-size: 1.6rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  height: 4rem;
+}

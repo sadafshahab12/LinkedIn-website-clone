@@ -1,0 +1,59 @@
+.box2-top {
+  padding: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  
+}
+.box2-top img {
+  width: 5rem;
+  border-radius: 4rem;
+}
+.box2-top input {
+  border-radius: 10rem;
+  border: 1px solid grey;
+  padding: 0rem 1.5rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  width: 100%;
+  color: black;
+}
+
+.box2-bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.box2-left {
+  display: flex;
+  gap: 1rem;
+}
+.box2-left p {
+  font-size: 1.4rem;
+  font-weight: 550;
+  color: rgb(66, 65, 65);
+}
+.box2-mid {
+  display: flex;
+  gap: 1rem;
+}
+.box2-mid p {
+  font-size: 1.4rem;
+  font-weight: 550;
+  color: rgb(66, 65, 65);
+}
+.box2-mid i {
+  color: #c37d16;
+}
+.box2-right {
+  display: flex;
+  gap: 1rem;
+}
+.box2-right p {
+  font-size: 1.4rem;
+  font-weight: 550;
+  color: rgb(66, 65, 65);
+}
+.box2-right i {
+  color: #e06847;
+}

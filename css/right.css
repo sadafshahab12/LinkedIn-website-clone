@@ -1,0 +1,27 @@
+.nav-right {
+  display: flex;
+  align-items: self-end;
+  width: 25%;
+  font-size: 1.3rem;
+  color: #5e5d5d;
+  font-weight: 350;
+  line-height: 2.75rem;
+}
+.nav-right-left,
+.nav-right-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nav-right-left {
+  padding: 0rem 1.5rem;
+}
+.nav-right-left svg {
+  font-size: 2.5rem;
+}
+.nav-right-right i {
+  font-size: 2rem;
+}
+.nav-right-right svg {
+  font-size: 3rem;
+}

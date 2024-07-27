@@ -1,0 +1,119 @@
+.box1-cover-img {
+  width: 100%;
+  height: 20%;
+  background-image: url(../srlogo/linkedin\ banner\ design\ blue2.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+.box1-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.1rem;
+  height: 59%;
+  border-bottom: 1px solid #e2e2e2;
+}
+.box1-profile h2 {
+  font-weight: 600;
+  padding-top: 4rem;
+}
+/* .box1-profile>h2:hover {
+text-decoration: underline purple;
+cursor: pointer;
+
+} */
+.box1-profile p {
+  font-size: 1.3rem;
+  width: 21rem;
+  text-align: center;
+  color: #585656;
+  font-weight: 350;
+  padding-top: 1rem;
+}
+.box1-profile img {
+  width: 7rem;
+  position: relative;
+  border-radius: 4rem;
+  border: 2.5px solid white;
+  z-index: 1;
+  top: 1.8rem;
+}
+.profile-name {
+  z-index: 1;
+}
+
+/* profile viewers and post impressions  */
+
+.box1-connection {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.151);
+  height: 16%;
+  display: flex;
+  font-size: 1.3rem;
+  justify-content: space-between;
+  padding: 1.5rem 1rem;
+  font-weight: 600;
+}
+.box-left-connect {
+  color: #5c5858;
+}
+.box-left-connect p{
+  padding-bottom: 0.5rem;
+}
+.box-right-connect p{
+  padding-bottom: 0.5rem;
+}
+.box-right-connect {
+  color: #0b65e3;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  font-weight: 700;
+}
+
+/* sales  */
+.box1-sales {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.151);
+  font-size: 1.3rem;
+  height: 15%;
+  padding: 1rem;
+}
+.box1-top{
+  padding-bottom: 0.25rem;
+}
+.box1-top p {
+  font-weight: 400;
+  color: #5c5858;
+}
+.box1-bottom {
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
+/* .box1-sales:hover{
+  background-color: rgba(128, 128, 128, 0.397);
+  color: #0b65e3;
+} */
+.yellow-box {
+  font-size: 2rem;
+}
+.box1-bottom p {
+  font-weight: 600;
+  color: #252525;
+}
+
+/* saved items  */
+.box1-save-items {
+  display: flex;
+  font-size: 1.3rem;
+  justify-content: space-evenly;
+  width: 11rem;
+  align-items: center;
+  color: #2f2e2e;
+  height: 5rem;
+}
+.box1-save-items p{
+font-weight: 600;
+}

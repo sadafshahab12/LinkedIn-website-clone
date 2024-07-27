@@ -1,0 +1,56 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: #F4F2EE;
+}
+.container{
+    min-height: 55rem;
+    width: 120rem;
+    display: grid;
+    grid-template-rows: 12rem 30rem minmax(5rem, 1fr);/*1fr occupy the rest space*/
+    grid-template-columns: 21% 50% 27%;
+    gap: 1rem 2rem;
+    margin: 0px 2%;
+    padding: 9rem 5rem;
+}
+.box{
+    border-right: 1px solid rgba(170, 168, 168, 0.434);
+    font-size: 2rem;
+    border-radius: 1rem;
+
+}
+.box1{
+    grid-row: 1/3 ;
+    position: relative;
+    z-index: -1;
+    background-color: white;
+}
+.box3{
+    grid-column: 3;
+    grid-row: 1/3 ;
+    padding: 1rem;
+    background-color: white;
+}
+.box2{
+    background-color: white;
+}
+.box4{
+    grid-row: 2/4;
+    min-height: 100rem;
+    margin-top: 2rem;
+    border: none;
+}
+.box5{
+    height: 18rem;
+    background-color: white;
+}
+.box6{
+    height: 45rem;
+    position: sticky;
+    top: 8rem;
+    overflow: hidden;
+    background-color: #F4F2EE;
+    border: none;
+    
+}
