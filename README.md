@@ -1,2 +1,2 @@
 # LinkedIn-website-clone
-create Linkedin Website Cloning with Html css
+Create Linkedin Website Cloning with Html CSS
